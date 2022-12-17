@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Comic+Neue&display=swap');
+
+.chevronButton{
+  z-index: 1;
+  margin-right: -15px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+/* leftContainer */
+.background_text_shadow{
+  background-color: rgba(56, 65, 59, .8);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.introduction{
+  font-family: 'Amatic SC', cursive;
+  font-size: 48px;
+  line-height: 61px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.introduction > div {
+  font-weight: 700;
+  backdrop-filter: blur(4px);
+}
+
+/* rightContainer */
+
+.button{
+  /* display: inline-block; */
+  padding: 15px;
+  font-family: 'Amatic SC', cursive;
+  line-height: 30px;
+  font-size: 24px;
+  text-transform: uppercase;
+  /* letter-spacing: 2.5px; */
+  font-weight: 400;
+  background-color: rgba(22, 22, 22, 1);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  text-align: center;
+  box-shadow: 0px 8px 15px rgba(255, 255, 255, 0.2);
+}
+
+
+.button > a {
+  text-decoration: none;
+  color: white;
+}
+.button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: black;
+  transform: translateY(-7px);
+}
