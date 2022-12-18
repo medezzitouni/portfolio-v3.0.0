@@ -17,19 +17,9 @@
   background-color: rgba(56, 65, 59, .8);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.introduction{
+.fontFamily{
   font-family: 'Amatic SC', cursive;
-  font-size: 48px;
-  line-height: 61px;
-  font-style: normal;
-  font-weight: 400;
-  text-transform: uppercase;
 }
-.introduction > div {
-  font-weight: 700;
-  backdrop-filter: blur(4px);
-}
-
 /* rightContainer */
 
 .button{
