@@ -25,7 +25,7 @@ const projects: Project[] = [
         title: 'Ametys',
         year: '2019/2020',
         image: process.env.BACKEND_URL + "/assets/ametys.png",
-        link:  'https://app.easylens.ma',
+        link:  'https://www.ametys.org/fr/index.html',
         body:  'Ametys solutions allow local authorities as well as public actors to create attractive web sites and portals adapted to the challenges and uses of citizens.Internally, they use Ametys products to create next-generation intranets and extranets: collaborative and connected to their business needs.'
     },
     
