@@ -90,7 +90,7 @@ const Home: NextPage = () => {
               </div> 
               <div className="w-[70%] md:w-[50%]">
               <Link
-                href={process.env.BACKEND_URL + "projects"}
+                href={"/projects"}
                 style={{ textDecoration: "none" }}
               >
                 <div className={styles.button}> SEE MY WORK </div>
