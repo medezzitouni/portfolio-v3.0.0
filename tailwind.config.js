@@ -6,6 +6,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors : {
+        primary: 'wheat',
+        secondary: 'rgba(56, 65, 59, .8)'
+      },
       flexBasis: {
         '3/10': '30%',
         '100': '99%'
