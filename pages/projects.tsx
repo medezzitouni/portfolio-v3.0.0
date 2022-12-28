@@ -60,7 +60,7 @@ const Project: NextPage = () => {
                         grid
                         place-items-center
                     `} 
-                    href={process.env.BACKEND_URL + '/'}   
+                    href='/'   
                     >
                     Home
                     </Link>
